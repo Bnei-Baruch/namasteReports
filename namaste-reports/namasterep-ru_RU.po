@@ -1,0 +1,510 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Namaste! Reports v0.6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-03-24 10:15:45+0000\n"
+"Last-Translator: tata <tk.karti@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: controllers/users.php:128
+#@ namasterep
+msgid "Namaste! Reports"
+msgstr ""
+
+#: controllers/users.php:134
+#@ namasterep
+msgid "View reports"
+msgstr ""
+
+#: models/basic.php:19
+#@ namasterep
+msgid "Advanced Reports"
+msgstr ""
+
+#: models/basic.php:27
+#@ namasterep
+msgid "My Reports"
+msgstr ""
+
+#: models/course.php:50
+#: models/lesson-report.php:102
+#: models/rank.php:92
+#@ namasterep
+msgid "n/a"
+msgstr ""
+
+#: views/course-reports.html.php:3
+#: views/main.html.php:3
+#: views/users-rankings.html.php:3
+#: views/users-reports.html.php:4
+#@ namasterep
+msgid "Main"
+msgstr ""
+
+#: views/course-reports.html.php:4
+#: views/main.html.php:4
+#: views/users-rankings.html.php:4
+#: views/users-reports.html.php:5
+#@ namasterep
+msgid "User Reports"
+msgstr ""
+
+#: views/course-reports.html.php:5
+#: views/main.html.php:5
+#: views/users-rankings.html.php:5
+#: views/users-rankings.html.php:47
+#: views/users-reports.html.php:6
+#@ namasterep
+msgid "User Rankings"
+msgstr ""
+
+#: views/course-reports.html.php:6
+#: views/main.html.php:6
+#: views/users-rankings.html.php:6
+#: views/users-reports.html.php:7
+#@ namasterep
+msgid "Course/Lesson Reports"
+msgstr ""
+
+#: views/course-reports.html.php:9
+#@ namasterep
+msgid "Namaste! LMS Course Reports"
+msgstr ""
+
+#: views/course-reports.html.php:14
+#@ namasterep
+msgid "Select course:"
+msgstr "Выберите курс:"
+
+#: views/course-reports.html.php:15
+#: views/users-reports.html.php:14
+#@ namasterep
+#@ namaserep
+msgid "- please select -"
+msgstr ""
+
+#: views/course-reports.html.php:23
+#, php-format
+#@ namasterep
+msgid "Showing reports for course \"%s\""
+msgstr ""
+
+#: views/course-reports.html.php:25
+#@ namsterep
+msgid "Total all-time pageviews:"
+msgstr ""
+
+#: views/course-reports.html.php:25
+#@ namasterep
+msgid "(On the course page and the lesson pages in the course)"
+msgstr ""
+
+#: views/course-reports.html.php:26
+#@ namsterep
+msgid "Average pageviews per student:"
+msgstr ""
+
+#: views/course-reports.html.php:27
+#@ namasterep
+msgid "Students enrolled:"
+msgstr ""
+
+#: views/course-reports.html.php:28
+#@ namasterep
+msgid "Students completed the course:"
+msgstr ""
+
+#: views/course-reports.html.php:28
+#@ namasterep
+msgid "% of all"
+msgstr ""
+
+#: views/course-reports.html.php:30
+#@ namasterep
+msgid "Average grade achieved:"
+msgstr ""
+
+#: views/course-reports.html.php:33
+#@ namasterep
+msgid "Lessons In This Course"
+msgstr ""
+
+#: views/course-reports.html.php:36
+#@ namasterep
+msgid "Lesson Title"
+msgstr ""
+
+#: views/course-reports.html.php:36
+#@ namasterep
+msgid "Total pageviews"
+msgstr ""
+
+#: views/course-reports.html.php:37
+#@ namasterep
+msgid "Avg. per user"
+msgstr ""
+
+#: views/course-reports.html.php:37
+#@ namasterep
+msgid "Students started"
+msgstr ""
+
+#: views/course-reports.html.php:38
+#@ namasterep
+msgid "Students completed"
+msgstr ""
+
+#: views/course-reports.html.php:39
+#@ namasterep
+msgid "Avg. grade"
+msgstr ""
+
+#: views/course-reports.html.php:40
+#@ namasterep
+msgid "Num. assignments"
+msgstr ""
+
+#: views/course-reports.html.php:40
+#: views/course-reports.html.php:60
+#@ namasterep
+msgid "Solutions submitted"
+msgstr ""
+
+#: views/course-reports.html.php:41
+#: views/course-reports.html.php:61
+#@ namasterep
+msgid "Approved solutions"
+msgstr ""
+
+#: views/course-reports.html.php:51
+#@ namasterep
+msgid "[see details]"
+msgstr ""
+
+#: views/course-reports.html.php:57
+#@ namasterep
+msgid "Assignments in this lesson"
+msgstr ""
+
+#: views/course-reports.html.php:60
+#@ namasterep
+msgid "Assignment"
+msgstr ""
+
+#: views/course-reports.html.php:61
+#@ namasterep
+msgid "Students who submitted"
+msgstr ""
+
+#: views/course-reports.html.php:62
+#@ namasterep
+msgid "Avg. solutions per student"
+msgstr ""
+
+#: views/course-reports.html.php:75
+#@ namasterep
+msgid "Please select course to load reports."
+msgstr ""
+
+#: views/main.html.php:10
+#@ namasterep
+msgid "Advanced Reports for Namaste! LMS"
+msgstr ""
+
+#: views/main.html.php:30
+#@ namasterep
+msgid "Enable \"Advanced Reports\" link in the user dashboard"
+msgstr ""
+
+#: views/main.html.php:30
+#@ namasterep
+msgid "Save"
+msgstr "Сохранить"
+
+#: views/main.html.php:32
+#@ namasterep
+msgid "You can also show reports by using shortcodes. Use the shortcode"
+msgstr ""
+
+#: views/main.html.php:32
+#@ namasterep
+msgid "to display user's own reports or the shortcode"
+msgstr ""
+
+#: views/main.html.php:32
+#@ namasterep
+msgid "to display reports of a given user (replace X with the user ID)"
+msgstr ""
+
+#: views/user-ranking-avg-grade.html.php:2
+#: views/user-ranking-courses.html.php:2
+#: views/user-ranking-lessons.html.php:2
+#: views/user-ranking-pageviews.html.php:2
+#: views/user-ranking-points.html.php:2
+#@ namasterep
+msgid "There are no students to rank."
+msgstr ""
+
+#: views/user-ranking-avg-grade.html.php:5
+#: views/user-ranking-courses.html.php:5
+#: views/user-ranking-lessons.html.php:5
+#: views/user-ranking-pageviews.html.php:5
+#: views/user-ranking-points.html.php:5
+#@ namasterep
+msgid "Shortcode for this report:"
+msgstr ""
+
+#: views/user-ranking-avg-grade.html.php:8
+#: views/user-ranking-courses.html.php:8
+#: views/user-ranking-lessons.html.php:8
+#: views/user-ranking-pageviews.html.php:8
+#: views/user-ranking-points.html.php:8
+#@ namasterep
+msgid "Student name"
+msgstr "Имя студента"
+
+#: views/user-ranking-avg-grade.html.php:8
+#: views/users-rankings.html.php:18
+#@ namasterep
+msgid "Average grade"
+msgstr ""
+
+#: views/user-ranking-courses.html.php:8
+#@ namasterep
+msgid "Courses completed"
+msgstr "Курс завершен"
+
+#: views/user-ranking-lessons.html.php:8
+#@ namasterep
+msgid "Lessons completed"
+msgstr "Урок завершен"
+
+#: views/user-ranking-pageviews.html.php:8
+#: views/user-reports.html.php:95
+#: views/users-rankings.html.php:16
+#@ namasterep
+msgid "Pageviews"
+msgstr ""
+
+#: views/user-ranking-points.html.php:8
+#@ namasterep
+msgid "Points"
+msgstr ""
+
+#: views/user-reports.html.php:12
+#, php-format
+#@ namasterep
+msgid "%s's Global LMS Reports"
+msgstr ""
+
+#: views/user-reports.html.php:15
+#@ namasterep
+msgid "Pageviews per course <br> (Includes lesson pageviews)"
+msgstr ""
+
+#: views/user-reports.html.php:15
+#@ namasterep
+msgid "% Completeness Per Course"
+msgstr ""
+
+#: views/user-reports.html.php:45
+#@ namasterep
+msgid "View history of user actions"
+msgstr ""
+
+#: views/user-reports.html.php:50
+#@ namasterep
+msgid "Filter by action:"
+msgstr ""
+
+#: views/user-reports.html.php:51
+#@ namasterep
+msgid "[all actions]"
+msgstr ""
+
+#: views/user-reports.html.php:52
+#@ namasterep
+msgid "[earned points]"
+msgstr ""
+
+#: views/user-reports.html.php:53
+#@ namasterep
+msgid "[started lesson]"
+msgstr ""
+
+#: views/user-reports.html.php:54
+#@ namasterep
+msgid "[completed lesson]"
+msgstr ""
+
+#: views/user-reports.html.php:55
+#@ namasterep
+msgid "[enrolled course]"
+msgstr ""
+
+#: views/user-reports.html.php:56
+#@ namasterep
+msgid "[completed course]"
+msgstr ""
+
+#: views/user-reports.html.php:57
+#@ namasterep
+msgid "[submitted solution]"
+msgstr ""
+
+#: views/user-reports.html.php:58
+#@ namasterep
+msgid "[solution approved/rejected]"
+msgstr ""
+
+#: views/user-reports.html.php:59
+#@ namasterep
+msgid "Date/time"
+msgstr ""
+
+#: views/user-reports.html.php:59
+#@ namasterep
+msgid "What happened"
+msgstr ""
+
+#: views/user-reports.html.php:65
+#@ namasterep
+msgid "This user has not been active recently."
+msgstr ""
+
+#: views/user-reports.html.php:75
+#, php-format
+#@ namasterep
+msgid "Reports for Course \"%s\""
+msgstr ""
+
+#: views/user-reports.html.php:79
+#@ namasterep
+msgid "Pageviews per lesson"
+msgstr ""
+
+#: views/user-reports.html.php:93
+#@ namasterep
+msgid "Details per lesson"
+msgstr ""
+
+#: views/user-reports.html.php:95
+#@ namasterep
+msgid "Lesson"
+msgstr "Урок"
+
+#: views/user-reports.html.php:95
+#@ namasterep
+msgid "Solutions to assignments"
+msgstr ""
+
+#: views/user-reports.html.php:95
+#@ namasterep
+msgid "% Approved solutions"
+msgstr ""
+
+#: views/user-reports.html.php:95
+#@ namasterep
+msgid "% Completeness"
+msgstr ""
+
+#: views/user-reports.html.php:96
+#@ namasterep
+msgid "Grade"
+msgstr ""
+
+#: views/user-reports.html.php:100
+#@ namasterep
+msgid "None yet"
+msgstr ""
+
+#: views/users-rankings.html.php:9
+#@ namasterep
+msgid "How do users rank in the LMS"
+msgstr ""
+
+#: views/users-rankings.html.php:12
+#@ namasterep
+msgid "Show ranking by:"
+msgstr ""
+
+#: views/users-rankings.html.php:14
+#@ namasterep
+msgid "Number of courses completed"
+msgstr ""
+
+#: views/users-rankings.html.php:15
+#@ namasterep
+msgid "Number of lessons completed"
+msgstr ""
+
+#: views/users-rankings.html.php:21
+#@ namasterep
+msgid "Points earned"
+msgstr ""
+
+#: views/users-rankings.html.php:25
+#@ namasterep
+msgid "In course:"
+msgstr ""
+
+#: views/users-rankings.html.php:26
+#@ namasterep
+msgid "All Courses"
+msgstr "Все курсы:"
+
+#: views/users-rankings.html.php:32
+#@ namasterep
+msgid "In lesson:"
+msgstr ""
+
+#: views/users-rankings.html.php:34
+#@ namasterep
+msgid "Select course"
+msgstr ""
+
+#: views/users-rankings.html.php:35
+#: views/users-rankings.html.php:81
+#@ namasterep
+msgid "- All Lessons -"
+msgstr ""
+
+#: views/users-rankings.html.php:42
+#@ namasterep
+msgid "No. students to display:"
+msgstr ""
+
+#: views/users-rankings.html.php:44
+#@ namasterep
+msgid "Run Reports"
+msgstr ""
+
+#: views/users-reports.html.php:11
+#@ namasterep
+msgid "Namaste! LMS Advanced User Reports"
+msgstr ""
+
+#: views/users-reports.html.php:13
+#@ namasterep
+msgid "Select user to view reports:"
+msgstr ""
+
+#: views/users-reports.html.php:22
+#@ namasterep
+msgid "To display this report on user-facing page use the shortcode"
+msgstr ""
+

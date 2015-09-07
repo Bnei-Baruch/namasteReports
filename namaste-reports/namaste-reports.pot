@@ -1,0 +1,450 @@
+# Copyright (C) 2015 Namaste! Reports
+# This file is distributed under the same license as the Namaste! Reports package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Namaste! Reports 0.6.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/namaste-reports\n"
+"POT-Creation-Date: 2015-06-18 15:35:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  namaste-reports.pot (Namaste! Reports 0.6.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: controllers/users.php:128
+msgid "Namaste! Reports"
+msgstr ""
+
+#: controllers/users.php:134
+msgid "View reports"
+msgstr ""
+
+#: models/basic.php:19
+msgid "Advanced Reports"
+msgstr ""
+
+#: models/basic.php:27
+msgid "My Reports"
+msgstr ""
+
+#: models/course.php:50 models/lesson-report.php:102 models/rank.php:92
+msgid "n/a"
+msgstr ""
+
+#: views/course-reports.html.php:3 views/main.html.php:3
+#: views/users-rankings.html.php:3 views/users-reports.html.php:4
+msgid "Main"
+msgstr ""
+
+#: views/course-reports.html.php:4 views/main.html.php:4
+#: views/users-rankings.html.php:4 views/users-reports.html.php:5
+msgid "User Reports"
+msgstr ""
+
+#: views/course-reports.html.php:5 views/main.html.php:5
+#: views/users-rankings.html.php:5 views/users-rankings.html.php:47
+#: views/users-reports.html.php:6
+msgid "User Rankings"
+msgstr ""
+
+#: views/course-reports.html.php:6 views/main.html.php:6
+#: views/users-rankings.html.php:6 views/users-reports.html.php:7
+msgid "Course/Lesson Reports"
+msgstr ""
+
+#: views/course-reports.html.php:9
+msgid "Namaste! LMS Course Reports"
+msgstr ""
+
+#: views/course-reports.html.php:14
+msgid "Select course:"
+msgstr ""
+
+#: views/course-reports.html.php:15 views/users-reports.html.php:14
+msgid "- please select -"
+msgstr ""
+
+#: views/course-reports.html.php:23
+msgid "Showing reports for course \"%s\""
+msgstr ""
+
+#: views/course-reports.html.php:25
+msgid "Total all-time pageviews:"
+msgstr ""
+
+#: views/course-reports.html.php:25
+msgid "(On the course page and the lesson pages in the course)"
+msgstr ""
+
+#: views/course-reports.html.php:26
+msgid "Average pageviews per student:"
+msgstr ""
+
+#: views/course-reports.html.php:27
+msgid "Students enrolled:"
+msgstr ""
+
+#: views/course-reports.html.php:28
+msgid "Students completed the course:"
+msgstr ""
+
+#: views/course-reports.html.php:28
+msgid "% of all"
+msgstr ""
+
+#: views/course-reports.html.php:30
+msgid "Average grade achieved:"
+msgstr ""
+
+#: views/course-reports.html.php:33
+msgid "Lessons In This Course"
+msgstr ""
+
+#: views/course-reports.html.php:36
+msgid "Lesson Title"
+msgstr ""
+
+#: views/course-reports.html.php:36
+msgid "Total pageviews"
+msgstr ""
+
+#: views/course-reports.html.php:37
+msgid "Avg. per user"
+msgstr ""
+
+#: views/course-reports.html.php:37
+msgid "Students started"
+msgstr ""
+
+#: views/course-reports.html.php:38
+msgid "Students completed"
+msgstr ""
+
+#: views/course-reports.html.php:39
+msgid "Avg. grade"
+msgstr ""
+
+#: views/course-reports.html.php:40
+msgid "Num. assignments"
+msgstr ""
+
+#: views/course-reports.html.php:40 views/course-reports.html.php:61
+msgid "Solutions submitted"
+msgstr ""
+
+#: views/course-reports.html.php:41 views/course-reports.html.php:62
+msgid "Approved solutions"
+msgstr ""
+
+#: views/course-reports.html.php:52
+msgid "[see details]"
+msgstr ""
+
+#: views/course-reports.html.php:58
+msgid "Assignments in this lesson"
+msgstr ""
+
+#: views/course-reports.html.php:61
+msgid "Assignment"
+msgstr ""
+
+#: views/course-reports.html.php:62
+msgid "Students who submitted"
+msgstr ""
+
+#: views/course-reports.html.php:63
+msgid "Avg. solutions per student"
+msgstr ""
+
+#: views/course-reports.html.php:77
+msgid "Students Enrolled In This Course"
+msgstr ""
+
+#: views/course-reports.html.php:80
+msgid "Show students with status:"
+msgstr ""
+
+#: views/course-reports.html.php:81
+msgid "Any"
+msgstr ""
+
+#: views/course-reports.html.php:82 views/course-reports.html.php:105
+msgid "In progress"
+msgstr ""
+
+#: views/course-reports.html.php:83 views/course-reports.html.php:105
+msgid "Completed"
+msgstr ""
+
+#: views/course-reports.html.php:87
+msgid "Completed the course within %s days of enrollment."
+msgstr ""
+
+#: views/course-reports.html.php:90
+msgid "Filter students"
+msgstr ""
+
+#: views/course-reports.html.php:94
+msgid "Username / name"
+msgstr ""
+
+#: views/course-reports.html.php:94
+msgid "Enrollment date"
+msgstr ""
+
+#: views/course-reports.html.php:95
+msgid "Status"
+msgstr ""
+
+#: views/course-reports.html.php:95
+msgid "Completion date"
+msgstr ""
+
+#: views/course-reports.html.php:96
+msgid "Lessons started"
+msgstr ""
+
+#: views/course-reports.html.php:97 views/user-ranking-lessons.html.php:8
+msgid "Lessons completed"
+msgstr ""
+
+#: views/course-reports.html.php:98
+msgid "Course grade"
+msgstr ""
+
+#: views/course-reports.html.php:103
+msgid "%s (%s)"
+msgstr ""
+
+#: views/course-reports.html.php:106
+msgid "N/a"
+msgstr ""
+
+#: views/course-reports.html.php:114
+msgid "Please select course to load reports."
+msgstr ""
+
+#: views/main.html.php:10
+msgid "Advanced Reports for Namaste! LMS"
+msgstr ""
+
+#: views/main.html.php:30
+msgid "Enable \"Advanced Reports\" link in the user dashboard"
+msgstr ""
+
+#: views/main.html.php:30
+msgid "Save"
+msgstr ""
+
+#: views/main.html.php:32
+msgid "You can also show reports by using shortcodes. Use the shortcode"
+msgstr ""
+
+#: views/main.html.php:32
+msgid "to display user's own reports or the shortcode"
+msgstr ""
+
+#: views/main.html.php:32
+msgid "to display reports of a given user (replace X with the user ID)"
+msgstr ""
+
+#: views/user-ranking-avg-grade.html.php:2
+#: views/user-ranking-courses.html.php:2 views/user-ranking-lessons.html.php:2
+#: views/user-ranking-pageviews.html.php:2
+#: views/user-ranking-points.html.php:2
+msgid "There are no students to rank."
+msgstr ""
+
+#: views/user-ranking-avg-grade.html.php:5
+#: views/user-ranking-courses.html.php:5 views/user-ranking-lessons.html.php:5
+#: views/user-ranking-pageviews.html.php:5
+#: views/user-ranking-points.html.php:5
+msgid "Shortcode for this report:"
+msgstr ""
+
+#: views/user-ranking-avg-grade.html.php:8
+#: views/user-ranking-courses.html.php:8 views/user-ranking-lessons.html.php:8
+#: views/user-ranking-pageviews.html.php:8
+#: views/user-ranking-points.html.php:8
+msgid "Student name"
+msgstr ""
+
+#: views/user-ranking-avg-grade.html.php:8 views/users-rankings.html.php:18
+msgid "Average grade"
+msgstr ""
+
+#: views/user-ranking-courses.html.php:8
+msgid "Courses completed"
+msgstr ""
+
+#: views/user-ranking-pageviews.html.php:8 views/user-reports.html.php:95
+#: views/users-rankings.html.php:16
+msgid "Pageviews"
+msgstr ""
+
+#: views/user-ranking-points.html.php:8
+msgid "Points"
+msgstr ""
+
+#: views/user-reports.html.php:12
+msgid "%s's Global LMS Reports"
+msgstr ""
+
+#: views/user-reports.html.php:15
+msgid "Pageviews per course <br> (Includes lesson pageviews)"
+msgstr ""
+
+#: views/user-reports.html.php:15
+msgid "% Completeness Per Course"
+msgstr ""
+
+#: views/user-reports.html.php:45
+msgid "View history of user actions"
+msgstr ""
+
+#: views/user-reports.html.php:50
+msgid "Filter by action:"
+msgstr ""
+
+#: views/user-reports.html.php:51
+msgid "[all actions]"
+msgstr ""
+
+#: views/user-reports.html.php:52
+msgid "[earned points]"
+msgstr ""
+
+#: views/user-reports.html.php:53
+msgid "[started lesson]"
+msgstr ""
+
+#: views/user-reports.html.php:54
+msgid "[completed lesson]"
+msgstr ""
+
+#: views/user-reports.html.php:55
+msgid "[enrolled course]"
+msgstr ""
+
+#: views/user-reports.html.php:56
+msgid "[completed course]"
+msgstr ""
+
+#: views/user-reports.html.php:57
+msgid "[submitted solution]"
+msgstr ""
+
+#: views/user-reports.html.php:58
+msgid "[solution approved/rejected]"
+msgstr ""
+
+#: views/user-reports.html.php:59
+msgid "Date/time"
+msgstr ""
+
+#: views/user-reports.html.php:59
+msgid "What happened"
+msgstr ""
+
+#: views/user-reports.html.php:65
+msgid "This user has not been active recently."
+msgstr ""
+
+#: views/user-reports.html.php:75
+msgid "Reports for Course \"%s\""
+msgstr ""
+
+#: views/user-reports.html.php:79
+msgid "Pageviews per lesson"
+msgstr ""
+
+#: views/user-reports.html.php:93
+msgid "Details per lesson"
+msgstr ""
+
+#: views/user-reports.html.php:95
+msgid "Lesson"
+msgstr ""
+
+#: views/user-reports.html.php:95
+msgid "Solutions to assignments"
+msgstr ""
+
+#: views/user-reports.html.php:95
+msgid "% Approved solutions"
+msgstr ""
+
+#: views/user-reports.html.php:95
+msgid "% Completeness"
+msgstr ""
+
+#: views/user-reports.html.php:96
+msgid "Grade"
+msgstr ""
+
+#: views/user-reports.html.php:100
+msgid "None yet"
+msgstr ""
+
+#: views/users-rankings.html.php:9
+msgid "How do users rank in the LMS"
+msgstr ""
+
+#: views/users-rankings.html.php:12
+msgid "Show ranking by:"
+msgstr ""
+
+#: views/users-rankings.html.php:14
+msgid "Number of courses completed"
+msgstr ""
+
+#: views/users-rankings.html.php:15
+msgid "Number of lessons completed"
+msgstr ""
+
+#: views/users-rankings.html.php:21
+msgid "Points earned"
+msgstr ""
+
+#: views/users-rankings.html.php:25
+msgid "In course:"
+msgstr ""
+
+#: views/users-rankings.html.php:26
+msgid "All Courses"
+msgstr ""
+
+#: views/users-rankings.html.php:32
+msgid "In lesson:"
+msgstr ""
+
+#: views/users-rankings.html.php:34
+msgid "Select course"
+msgstr ""
+
+#: views/users-rankings.html.php:35 views/users-rankings.html.php:81
+msgid "- All Lessons -"
+msgstr ""
+
+#: views/users-rankings.html.php:42
+msgid "No. students to display:"
+msgstr ""
+
+#: views/users-rankings.html.php:44
+msgid "Run Reports"
+msgstr ""
+
+#: views/users-reports.html.php:11
+msgid "Namaste! LMS Advanced User Reports"
+msgstr ""
+
+#: views/users-reports.html.php:13
+msgid "Select user to view reports:"
+msgstr ""
+
+#: views/users-reports.html.php:22
+msgid "To display this report on user-facing page use the shortcode"
+msgstr ""
