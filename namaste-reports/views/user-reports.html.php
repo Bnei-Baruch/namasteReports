@@ -55,10 +55,15 @@ table.namasterep-table td {
 				<a href="#" onclick="namasterepFilterByAction('enrolled_course', this);return false;"><?php _e('[enrolled course]', 'namasterep')?></a>
 				<a href="#" onclick="namasterepFilterByAction('completed_course', this);return false;"><?php _e('[completed course]', 'namasterep')?></a>
 				<a href="#" onclick="namasterepFilterByAction('submitted_solution', this);return false;"><?php _e('[submitted solution]', 'namasterep')?></a>
-				<a href="#" onclick="namasterepFilterByAction('solution_processed', this);return false;"><?php _e('[solution approved/rejected]', 'namasterep')?></a></td></tr>
-				<tr><th><?php _e('Date/time', 'namasterep');?></th><th><?php _e('What happened', 'namasterep')?></th></tr>
+				<a href="#" onclick="namasterepFilterByAction('solution_processed', this);return false;"><?php _e('[solution approved/rejected]', 'namasterep')?></a>
+</td></tr>
+				<tr><th><?php _e('Date/time', 'namasterep');?></th><th><?php _e('What happened', 'namasterep')?></th>
+<th class="points-column" style="display:none"><?php _e('Points', 'namasterep')?></th>
+				</tr>
 				<?php foreach($actions as $action):?>
-					<tr class="namasterep-action <?php echo $action->action?>"><td><?php echo date($date_format.' '.$time_format, strtotime($action->datetime))?></td><td><?php echo $action->value;?></td></tr>
+					<tr class="namasterep-action <?php echo $action->action?>"><td><?php echo date($date_format.' '.$time_format, strtotime($action->datetime))?></td>
+<td><?php echo $action->value;?></td><td class="points-column" style="display:none"><?php echo $action->num_value ?></td>	
+				</tr>
 				<?php endforeach;?>			
 			</table>
 		<?php else:?>
@@ -145,6 +150,12 @@ function namasterepFilterByAction(act, lnk) {
 		jQuery('.namasterep-action').hide();
 		jQuery('.'+act).show();
 		jQuery(lnk).addClass('bold-action');
+	}
+
+	if(act == 'awarded_points'){
+		jQuery('.points-column').show()
+	} else {
+		jQuery('.points-column').hide();
 	}
 }
 </script>
